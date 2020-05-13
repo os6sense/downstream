@@ -30,7 +30,7 @@ defmodule Downstream.MixProject do
       {:dialyxir, "~> 0.5.0", only: [:dev, :test], runtime: false},
       {:excoveralls, "~> 0.10", only: [:test]},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
-      {:httpoison, "~> 1.5.0"},
+      {:httpoison, "~> 1.5"},
       {:mimic, "~> 0.2", only: :test}
     ]
   end
